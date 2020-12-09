@@ -17,7 +17,7 @@
 			echo "Enter car model"
 			read -r MODEL
 			NEW="${YEAR}:${BUILD}:${MODEL}"
-			echo  "NEW" >> My_old_cars
+			echo  "$NEW" >> My_old_cars
 			;;
 		"2")
 			sort My_old_cars;;
